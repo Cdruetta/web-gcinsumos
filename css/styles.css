@@ -1,0 +1,80 @@
+:root {
+    --color-primary: #ff5722; /* Naranja */
+    --color-secondary: #000000; /* Negro */
+}
+
+/* Sobrescribe los estilos de Bootstrap con tus colores personalizados */
+.navbar-light .navbar-nav .nav-link {
+    color: var(--color-primary);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--color-secondary);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: var(--color-primary);
+}
+
+.carousel-item {
+    background-color: var(--color-secondary);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+
+.bg-light {
+    background-color: var(--color-primary);
+}
+:root {
+    --color-background: #121212; /* Fondo oscuro */
+    --color-primary: #ff5722; /* Naranja */
+    --color-secondary: #000000; /* Negro */
+    --color-text: #ffffff; /* Texto blanco */
+}
+
+/* Aplicar colores oscuros a elementos de Bootstrap */
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.navbar-light {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--color-primary);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--color-secondary);
+}
+
+.carousel-item {
+    background-color: var(--color-secondary);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-text);
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    color: var(--color-text);
+}
+
+.bg-light {
+    background-color: var(--color-background);
+}
